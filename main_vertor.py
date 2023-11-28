@@ -9,7 +9,8 @@ if __name__ == "__main__":
 
     zero2 = Vector([0, 0])
 
-
-
     print(vec.norm())
     print(vec.normalize())
+
+    vec3 = Vector([0, 0])
+    print(vec2 == vec3)
